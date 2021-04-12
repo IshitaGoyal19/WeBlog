@@ -58,6 +58,7 @@ textarea {
   width: 100%;
   background: rgba(0, 0, 0, 0.1);
   border: none;
+  white-space: pre-wrap;
 }
 
 body::after, body::before,

@@ -46,14 +46,16 @@ const Cardd=styled.div
   color: #222;
   margin-top: -0.2em;
   line-height: 1.4;
-  font-size: 1.3em;
+  font-size: 1.8em;
   font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
   transition: all ease-in 100ms;
 }
 
 .post-container p {
   color: #777;
+  font-size: 15px;
+  white-space: pre-wrap;
 }
 
 .post-container h5 {
@@ -71,7 +73,7 @@ const Cardd=styled.div
 }
 .post-container .card-body .category {
   position: absolute;
-  top: 63.6%;
+  top: 475px;
   left: 0;
   z-index:20;
   background: #e74c3c;
@@ -88,6 +90,10 @@ const Cardd=styled.div
   {
     width: 86%;
     margin: 7% 4% 5% 3%;
+  }
+  .post-container .card-body .category
+  {
+    top: 472px;
   }
 }
 `

@@ -3,6 +3,7 @@ import CreateNewPost from "./CreateNewPost";
 import Post from "./Post";
 import ModifyPost from "./ModifyPost"
 import Button from "./Button";
+import Footer from "./Footer";
 import ToggleCreateNewPost from "./ToggleCreateNewPost";
 import styled from "styled-components";
 //import "./style.css";
@@ -12,7 +13,7 @@ const Displayy=styled.div
 .no-post {
   border:2px dashed black;
   text-align: center;
-  height: 44vh;
+  height: 46vh;
   background-color: #C8D5B9; 
   margin: 5%;
   padding: 5%;
@@ -39,7 +40,7 @@ h3 {
 }
 .button-wrapper {
   /*text-align: center;*/
-  margin: -2vh 56vh;
+  margin: -3vh 56vh;
 }
 
 .button-wrapper2
@@ -242,6 +243,7 @@ const DisplayAllPosts = () => {
             <Button name="ADD BLOG" func={toggleCreateNewPost} />
       </section>
         </section>
+        <Footer />
         </Displayy>
         
       ) : (
@@ -266,9 +268,11 @@ const DisplayAllPosts = () => {
       <section className="button-wrapper2">
       <Button name="ADD BLOG" func={toggleCreateNewPost}/>
       </section>
+      
         </section>
-        
+       
         </div>
+        
       </Displayy>
       )}
       

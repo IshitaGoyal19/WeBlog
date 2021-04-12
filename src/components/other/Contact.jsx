@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import Navbar from './Navbar';
+import Footer from "./Footer";
 const Formm=styled.div
 `
 .form{
@@ -71,6 +72,9 @@ hr{
 }
 
 h2{
+  text-align: center;
+  font-size: 30px;
+	font-family: 'Lato', sans-serif;
 	//position: absolute;
 	//top: 181vh;
 	//left: 45vw;
@@ -104,8 +108,9 @@ const Contact = () => {
 
     <input type="submit" value="Submit"></input>
         </div>
+        <Footer />
         </Formm>
     )
 }
 
-export default Contact
+export default Contact;

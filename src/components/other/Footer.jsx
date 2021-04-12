@@ -5,9 +5,19 @@ const Foot=styled.div
 `
 .foo
 {
+    position: relative;
     width:100%;
-    margin-top: 3%;
-    bottom: 50px;
+    margin-top: 10%;
+    bottom: 0px;
+    text-align: center;
+    background: #68B0AB;
+    height: 45px;
+}
+p
+{
+    padding: 3px;
+    font-size: 30px;
+	font-family: 'Lato', sans-serif;
 }
 `
 

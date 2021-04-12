@@ -52,6 +52,7 @@ textarea {
   border: 0;
   outline: none;
   color: rgba(0, 0, 0, 0.7);
+  white-space: pre-wrap;
   font-family: "roboto-regular", sans-serif;
   font-size: 1.4rem;
   width: 100%;
